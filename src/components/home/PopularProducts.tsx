@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
-import { ProductCard } from './ProductCard'
+import { ProductCard } from '@/components/product/ProductCard'
 import { products } from '@/data/products'
 
 export function PopularProducts() {
