@@ -1,0 +1,13 @@
+-- =============================================================================
+-- Gronur — Supabase SQL setup
+-- =============================================================================
+-- Supabase SQL Editor does NOT support \i includes.
+-- Run these files IN ORDER (copy/paste each, click Run):
+--
+--   1. supabase/migrations/001_initial_schema.sql
+--   2. supabase/migrations/002_products_schema.sql
+--   3. supabase/migrations/003_seed_products.sql  (63 products)
+--
+-- Tables created:
+--   profiles, carts, orders, addresses, categories, products
+-- =============================================================================

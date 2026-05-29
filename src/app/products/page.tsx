@@ -4,15 +4,16 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Search, Grid3X3, List } from 'lucide-react'
 import { ProductCard } from '@/components/product/ProductCard'
-import { products } from '@/data/products'
+import { useCatalog } from '@/hooks/useCatalog'
 
 export default function ProductsPage() {
+  const { products, categories: catalogCategories, loading } = useCatalog()
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [sortBy, setSortBy] = useState('popular')
 
-  const categories = ['all', 'fruits', 'vegetables']
+  const categories = ['all', ...catalogCategories.map((c) => c.id)]
 
   const filteredProducts = products
     .filter(product => {
@@ -103,7 +104,10 @@ export default function ProductsPage() {
             ? 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4'
             : 'grid-cols-1'
         }`}>
-          {filteredProducts.map((product, index) => (
+          {loading && (
+            <p className="col-span-full text-center text-gray-500 py-16">Loading products from Supabase…</p>
+          )}
+          {!loading && filteredProducts.map((product, index) => (
             <motion.div
               key={product.id}
               initial={{ opacity: 0, y: 20 }}
@@ -115,7 +119,7 @@ export default function ProductsPage() {
           ))}
         </div>
 
-        {filteredProducts.length === 0 && (
+        {!loading && filteredProducts.length === 0 && (
           <div className="text-center py-16">
             <p className="text-gray-500 text-lg">No products found matching your criteria.</p>
           </div>

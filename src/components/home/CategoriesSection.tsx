@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Apple, Carrot, Milk, Croissant, Coffee, Cookie, ArrowRight } from 'lucide-react'
-import { categories } from '@/data/products'
+import { useCatalog } from '@/hooks/useCatalog'
 
 const iconMap: Record<string, React.ReactNode> = {
   Apple: <Apple className="w-8 h-8" />,
@@ -15,6 +15,8 @@ const iconMap: Record<string, React.ReactNode> = {
 }
 
 export function CategoriesSection() {
+  const { categories, loading } = useCatalog()
+
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,7 +35,10 @@ export function CategoriesSection() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {categories.map((category, index) => (
+          {loading && (
+            <p className="col-span-full text-center text-gray-500 py-6">Loading categories…</p>
+          )}
+          {!loading && categories.map((category, index) => (
             <motion.div
               key={category.id}
               initial={{ opacity: 0, y: 20 }}

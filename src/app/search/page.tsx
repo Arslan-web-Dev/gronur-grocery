@@ -5,9 +5,10 @@ import { useSearchParams } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Search, SlidersHorizontal, X } from 'lucide-react'
 import { ProductCard } from '@/components/product/ProductCard'
-import { products } from '@/data/products'
+import { useCatalog } from '@/hooks/useCatalog'
 
 function SearchContent() {
+  const { products, loading } = useCatalog()
   const searchParams = useSearchParams()
   const query = searchParams.get('q') || ''
   const [searchQuery, setSearchQuery] = useState(query)

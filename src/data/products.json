@@ -1,0 +1,1274 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Fresh Orange",
+      "description": "Sweet and juicy oranges rich in Vitamin C.",
+      "price": 14.75,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "citrus",
+      "image": "https://images.unsplash.com/photo-1547514701-42782101795e?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 128,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "originalPrice": 18.5,
+      "badge": "Popular"
+    },
+    {
+      "id": "2",
+      "name": "Red Apple",
+      "description": "Crisp and sweet red apples for snacking or baking.",
+      "price": 10.45,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "pome",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 95,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Fresh"
+    },
+    {
+      "id": "3",
+      "name": "Strawberry",
+      "description": "Fresh organic strawberries bursting with flavor.",
+      "price": 12.75,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "berries",
+      "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=500&auto=format&fit=crop",
+      "rating": 4.9,
+      "reviews": 203,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "originalPrice": 15,
+      "badge": "Best Seller"
+    },
+    {
+      "id": "4",
+      "name": "Dragon Fruit",
+      "description": "Exotic dragon fruit with sweet white flesh.",
+      "price": 45.35,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1527325678964-54921661f888?w=500&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 67,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "5",
+      "name": "Fresh Lemon",
+      "description": "Zesty lemons for cooking and beverages.",
+      "price": 11.75,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "citrus",
+      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 89,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Organic"
+    },
+    {
+      "id": "6",
+      "name": "Watermelon",
+      "description": "Sweet refreshing watermelon for summer.",
+      "price": 11.35,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "melons",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 156,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "originalPrice": 14,
+      "badge": "Seasonal"
+    },
+    {
+      "id": "7",
+      "name": "Capsicum",
+      "description": "Colorful crisp bell peppers.",
+      "price": 22.65,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "peppers",
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbbad0e?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 78,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "8",
+      "name": "Fresh Broccoli",
+      "description": "Nutrient-rich broccoli florets.",
+      "price": 8.99,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "cruciferous",
+      "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 112,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Healthy"
+    },
+    {
+      "id": "9",
+      "name": "Carrot",
+      "description": "Sweet crunchy carrots rich in beta-carotene.",
+      "price": 6.5,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "root",
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 134,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "10",
+      "name": "Spinach",
+      "description": "Fresh baby spinach leaves ready to use.",
+      "price": 9.25,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "leafy",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 98,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "badge": "Organic"
+    },
+    {
+      "id": "11",
+      "name": "Tomato",
+      "description": "Ripe juicy tomatoes for salads and cooking.",
+      "price": 7.8,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "nightshade",
+      "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 145,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "12",
+      "name": "Cucumber",
+      "description": "Crisp refreshing cucumbers.",
+      "price": 5.4,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "gourd",
+      "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a0?w=500&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 87,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "13",
+      "name": "Banana",
+      "description": "Sweet ripe bananas perfect energy snack.",
+      "price": 4.99,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 234,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "badge": "Popular"
+    },
+    {
+      "id": "14",
+      "name": "Grapes",
+      "description": "Sweet seedless grapes for snacking.",
+      "price": 16.5,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "berries",
+      "image": "https://images.unsplash.com/photo-1537640538965-1756cd58090e?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 167,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "15",
+      "name": "Mango",
+      "description": "Sweet juicy tropical mangoes.",
+      "price": 18.75,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?w=500&auto=format&fit=crop",
+      "rating": 4.9,
+      "reviews": 189,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "badge": "Best Seller"
+    },
+    {
+      "id": "16",
+      "name": "Pineapple",
+      "description": "Sweet tangy fresh pineapple.",
+      "price": 13.5,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 134,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "17",
+      "name": "Kiwi",
+      "description": "Tangy green kiwi packed with vitamin C.",
+      "price": 8.99,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1585059896004-aa1aa899b1c8?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 112,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "18",
+      "name": "Avocado",
+      "description": "Creamy ripe Hass avocados.",
+      "price": 12.25,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 198,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "originalPrice": 14.5,
+      "badge": "Popular"
+    },
+    {
+      "id": "19",
+      "name": "Blueberry",
+      "description": "Plump sweet blueberries antioxidant rich.",
+      "price": 15.5,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "berries",
+      "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 176,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "20",
+      "name": "Peach",
+      "description": "Juicy fragrant peaches in season.",
+      "price": 9.75,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "pome",
+      "image": "https://images.unsplash.com/photo-1639668456909-06074e22772d?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 89,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Seasonal"
+    },
+    {
+      "id": "21",
+      "name": "Pear",
+      "description": "Soft buttery pears naturally sweet.",
+      "price": 8.45,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "pome",
+      "image": "https://images.unsplash.com/photo-1615484477861-315698f2f654?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 67,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "22",
+      "name": "Cherry",
+      "description": "Dark sweet cherries hand picked.",
+      "price": 19.99,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "berries",
+      "image": "https://images.unsplash.com/photo-1528821120929-79f2a38ea163?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 143,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "originalPrice": 24
+    },
+    {
+      "id": "23",
+      "name": "Pomegranate",
+      "description": "Ruby arils bursting with antioxidants.",
+      "price": 11.25,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1615485929416-f3839b4b2bb0?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 98,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "24",
+      "name": "Papaya",
+      "description": "Tropical papaya soft and sweet.",
+      "price": 7.65,
+      "unit": "kg",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "image": "https://images.unsplash.com/photo-1615485929416-f3839b4b2bb0?w=500&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 54,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "25",
+      "name": "Potato",
+      "description": "Versatile russet potatoes for every meal.",
+      "price": 4.25,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "root",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 210,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "26",
+      "name": "Red Onion",
+      "description": "Mild sweet red onions.",
+      "price": 3.85,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "root",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 156,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "27",
+      "name": "Fresh Garlic",
+      "description": "Aromatic garlic bulbs farm fresh.",
+      "price": 6.2,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "root",
+      "image": "https://images.unsplash.com/photo-1618379882422-aa27137c1c0c?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 88,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "badge": "Organic"
+    },
+    {
+      "id": "28",
+      "name": "Iceberg Lettuce",
+      "description": "Crunchy lettuce heads for salads.",
+      "price": 3.5,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "leafy",
+      "image": "https://images.unsplash.com/photo-1622206151226-18ca0c9ab4a1?w=500&auto=format&fit=crop",
+      "rating": 4.2,
+      "reviews": 76,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "29",
+      "name": "Cauliflower",
+      "description": "White cauliflower florets low carb favorite.",
+      "price": 7.15,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "cruciferous",
+      "image": "https://images.unsplash.com/photo-1568584711075-2632fbf25f80?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 92,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "30",
+      "name": "Zucchini",
+      "description": "Tender green zucchini squash.",
+      "price": 5.95,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "gourd",
+      "image": "https://images.unsplash.com/photo-1595970888500-54e535b07b66?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 81,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "31",
+      "name": "Eggplant",
+      "description": "Glossy purple eggplant for grilling.",
+      "price": 6.75,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "nightshade",
+      "image": "https://images.unsplash.com/photo-1659261201940-82f26166bc17?w=500&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 64,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "32",
+      "name": "Sweet Corn",
+      "description": "Sweet corn on the cob.",
+      "price": 4.5,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "gourd",
+      "image": "https://images.unsplash.com/photo-1551758558-6c0417bb8d8b?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 132,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Seasonal"
+    },
+    {
+      "id": "33",
+      "name": "Green Beans",
+      "description": "Snap green beans crisp and fresh.",
+      "price": 6.85,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "legume",
+      "image": "https://images.unsplash.com/photo-1595970888500-54e535b07b66?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 97,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "34",
+      "name": "Asparagus",
+      "description": "Tender asparagus spears premium grade.",
+      "price": 14.25,
+      "unit": "kg",
+      "category": "vegetables",
+      "subcategory": "stalk",
+      "image": "https://images.unsplash.com/photo-1615484477861-315698f2f654?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 71,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "badge": "Fresh"
+    },
+    {
+      "id": "35",
+      "name": "Whole Milk",
+      "description": "Farm fresh vitamin D whole milk.",
+      "price": 3.49,
+      "unit": "L",
+      "category": "dairy",
+      "subcategory": "milk",
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 312,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "36",
+      "name": "Greek Yogurt",
+      "description": "Thick protein rich plain Greek yogurt.",
+      "price": 5.99,
+      "unit": "pack",
+      "category": "dairy",
+      "subcategory": "yogurt",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 245,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "badge": "Popular"
+    },
+    {
+      "id": "37",
+      "name": "Cheddar Cheese",
+      "description": "Sharp aged cheddar block.",
+      "price": 7.49,
+      "unit": "pack",
+      "category": "dairy",
+      "subcategory": "cheese",
+      "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 178,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "originalPrice": 8.99
+    },
+    {
+      "id": "38",
+      "name": "Unsalted Butter",
+      "description": "European style unsalted butter.",
+      "price": 4.99,
+      "unit": "pack",
+      "category": "dairy",
+      "subcategory": "milk",
+      "image": "https://images.unsplash.com/photo-1589985270523-2174b04b41d5?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 201,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "39",
+      "name": "Free Range Eggs",
+      "description": "Large brown free range eggs.",
+      "price": 5.49,
+      "unit": "dozen",
+      "category": "dairy",
+      "subcategory": "eggs",
+      "image": "https://images.unsplash.com/photo-1582722879805-aaf01f17a8e0?w=500&auto=format&fit=crop",
+      "rating": 4.9,
+      "reviews": 389,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      },
+      "badge": "Best Seller"
+    },
+    {
+      "id": "40",
+      "name": "Cottage Cheese",
+      "description": "Low fat cottage cheese creamy.",
+      "price": 4.25,
+      "unit": "pack",
+      "category": "dairy",
+      "subcategory": "cheese",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 134,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "41",
+      "name": "Almond Milk",
+      "description": "Unsweetened almond milk dairy free.",
+      "price": 4.29,
+      "unit": "L",
+      "category": "dairy",
+      "subcategory": "milk",
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 167,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Organic"
+    },
+    {
+      "id": "42",
+      "name": "Heavy Cream",
+      "description": "Rich heavy whipping cream.",
+      "price": 5.15,
+      "unit": "L",
+      "category": "dairy",
+      "subcategory": "milk",
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 98,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "43",
+      "name": "Mozzarella",
+      "description": "Fresh mozzarella ball for pizza.",
+      "price": 6.75,
+      "unit": "pack",
+      "category": "dairy",
+      "subcategory": "cheese",
+      "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 156,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "44",
+      "name": "Sourdough Bread",
+      "description": "Artisan sourdough loaf crusty outside.",
+      "price": 5.99,
+      "unit": "loaf",
+      "category": "bakery",
+      "subcategory": "bread",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 267,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Popular"
+    },
+    {
+      "id": "45",
+      "name": "Butter Croissant",
+      "description": "Flaky buttery French croissants.",
+      "price": 3.49,
+      "unit": "pack",
+      "category": "bakery",
+      "subcategory": "pastry",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 198,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "46",
+      "name": "Everything Bagels",
+      "description": "Fresh baked everything bagels six pack.",
+      "price": 4.99,
+      "unit": "pack",
+      "category": "bakery",
+      "subcategory": "bread",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 145,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "47",
+      "name": "Blueberry Muffin",
+      "description": "Moist muffins loaded with blueberries.",
+      "price": 2.99,
+      "unit": "pack",
+      "category": "bakery",
+      "subcategory": "pastry",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 112,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "48",
+      "name": "Whole Wheat Bread",
+      "description": "Soft whole wheat sandwich bread.",
+      "price": 3.79,
+      "unit": "loaf",
+      "category": "bakery",
+      "subcategory": "bread",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 189,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "49",
+      "name": "Ciabatta Roll",
+      "description": "Italian ciabatta rolls four pack.",
+      "price": 4.49,
+      "unit": "pack",
+      "category": "bakery",
+      "subcategory": "bread",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 87,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "50",
+      "name": "Banana Bread",
+      "description": "Homestyle banana bread loaf.",
+      "price": 6.25,
+      "unit": "loaf",
+      "category": "bakery",
+      "subcategory": "pastry",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 134,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "51",
+      "name": "Orange Juice",
+      "description": "Fresh squeezed style orange juice.",
+      "price": 4.99,
+      "unit": "L",
+      "category": "beverages",
+      "subcategory": "juice",
+      "image": "https://images.unsplash.com/photo-1621506289667-efbc12c6dfbc?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 223,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "52",
+      "name": "Organic Green Tea",
+      "description": "Premium organic green tea bags.",
+      "price": 6.49,
+      "unit": "box",
+      "category": "beverages",
+      "subcategory": "tea",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 156,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      },
+      "badge": "Organic"
+    },
+    {
+      "id": "53",
+      "name": "Cold Brew Coffee",
+      "description": "Smooth cold brew ready to drink.",
+      "price": 5.99,
+      "unit": "bottle",
+      "category": "beverages",
+      "subcategory": "coffee",
+      "image": "https://images.unsplash.com/photo-1514431164617-a09d994a2ddc?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 298,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "originalPrice": 6.99,
+      "badge": "Popular"
+    },
+    {
+      "id": "54",
+      "name": "Coconut Water",
+      "description": "Pure coconut water electrolytes.",
+      "price": 3.99,
+      "unit": "L",
+      "category": "beverages",
+      "subcategory": "water",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 187,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "55",
+      "name": "Sparkling Water",
+      "description": "Naturally sparkling mineral water.",
+      "price": 2.49,
+      "unit": "pack",
+      "category": "beverages",
+      "subcategory": "water",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 245,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "56",
+      "name": "Mixed Nuts",
+      "description": "Roasted unsalted mixed nuts.",
+      "price": 9.99,
+      "unit": "pack",
+      "category": "snacks",
+      "subcategory": "nuts",
+      "image": "https://images.unsplash.com/photo-1599599810769-0c0d0e49b2e0?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 312,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Popular"
+    },
+    {
+      "id": "57",
+      "name": "Dark Chocolate",
+      "description": "72 percent dark chocolate bar.",
+      "price": 3.49,
+      "unit": "pack",
+      "category": "snacks",
+      "subcategory": "bars",
+      "image": "https://images.unsplash.com/photo-1511381939415-44080a27e27f?w=500&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 198,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "58",
+      "name": "Potato Chips",
+      "description": "Classic sea salt kettle chips.",
+      "price": 3.29,
+      "unit": "pack",
+      "category": "snacks",
+      "subcategory": "chips",
+      "image": "https://images.unsplash.com/photo-1566478989037-6d399f1c1f08?w=500&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 421,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "59",
+      "name": "Granola Bars",
+      "description": "Chewy oats and honey granola bars.",
+      "price": 5.49,
+      "unit": "box",
+      "category": "snacks",
+      "subcategory": "bars",
+      "image": "https://images.unsplash.com/photo-1599599810769-0c0d0e49b2e0?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 267,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      }
+    },
+    {
+      "id": "60",
+      "name": "Trail Mix",
+      "description": "Energy trail mix with dried fruit.",
+      "price": 7.25,
+      "unit": "pack",
+      "category": "snacks",
+      "subcategory": "nuts",
+      "image": "https://images.unsplash.com/photo-1599599810769-0c0d0e49b2e0?w=500&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 189,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    },
+    {
+      "id": "61",
+      "name": "Pretzels",
+      "description": "Crunchy salted pretzel twists.",
+      "price": 2.99,
+      "unit": "pack",
+      "category": "snacks",
+      "subcategory": "chips",
+      "image": "https://images.unsplash.com/photo-1566478989037-6d399f1c1f08?w=500&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 156,
+      "inStock": true,
+      "nutrition": {
+        "calories": 47,
+        "protein": 0.9,
+        "carbs": 12,
+        "fat": 0.1
+      }
+    },
+    {
+      "id": "62",
+      "name": "Protein Bars",
+      "description": "Chocolate chip high protein bars.",
+      "price": 8.99,
+      "unit": "box",
+      "category": "snacks",
+      "subcategory": "bars",
+      "image": "https://images.unsplash.com/photo-1599599810769-0c0d0e49b2e0?w=500&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 234,
+      "inStock": true,
+      "nutrition": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2
+      },
+      "badge": "Healthy"
+    },
+    {
+      "id": "63",
+      "name": "Popcorn",
+      "description": "Microwave butter popcorn three pack.",
+      "price": 4.49,
+      "unit": "pack",
+      "category": "snacks",
+      "subcategory": "chips",
+      "image": "https://images.unsplash.com/photo-1566478989037-6d399f1c1f08?w=500&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 178,
+      "inStock": true,
+      "nutrition": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 8,
+        "fat": 0.3
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "icon": "Apple",
+      "color": "bg-orange-100 text-orange-600",
+      "productCount": 18
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "icon": "Carrot",
+      "color": "bg-green-100 text-green-600",
+      "productCount": 16
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy",
+      "icon": "Milk",
+      "color": "bg-blue-100 text-blue-600",
+      "productCount": 9
+    },
+    {
+      "id": "bakery",
+      "name": "Bakery",
+      "icon": "Croissant",
+      "color": "bg-amber-100 text-amber-600",
+      "productCount": 7
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "icon": "Coffee",
+      "color": "bg-red-100 text-red-600",
+      "productCount": 5
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "icon": "Cookie",
+      "color": "bg-purple-100 text-purple-600",
+      "productCount": 8
+    }
+  ]
+}

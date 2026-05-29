@@ -8,16 +8,25 @@ import { Star, Plus, Minus, ShoppingCart, Heart, Share2, Truck, Shield, RotateCc
 import { useCartStore } from '@/hooks/useCart'
 import { toast } from '@/components/ui/Toaster'
 import { ProductCard } from '@/components/product/ProductCard'
-import { products } from '@/data/products'
+import { useCatalog } from '@/hooks/useCatalog'
 
 export default function ProductDetailPage() {
   const params = useParams()
   const productId = params.id as string
+  const { products, loading } = useCatalog()
   const [quantity, setQuantity] = useState(1)
   const [activeTab, setActiveTab] = useState('description')
 
   const product = products.find(p => p.id === productId)
   const addItem = useCartStore((state) => state.addItem)
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-500">Loading product…</p>
+      </div>
+    )
+  }
 
   if (!product) {
     return (

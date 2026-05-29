@@ -4,9 +4,10 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { ProductCard } from '@/components/product/ProductCard'
-import { products } from '@/data/products'
+import { useCatalog } from '@/hooks/useCatalog'
 
 export function PopularProducts() {
+  const { products, loading } = useCatalog()
   const popularProducts = products.filter(p => p.rating >= 4.7).slice(0, 8)
 
   return (
@@ -27,7 +28,10 @@ export function PopularProducts() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
-          {popularProducts.map((product, index) => (
+          {loading && (
+            <p className="col-span-full text-center text-gray-500 py-8">Loading products…</p>
+          )}
+          {!loading && popularProducts.map((product, index) => (
             <motion.div
               key={product.id}
               initial={{ opacity: 0, y: 20 }}

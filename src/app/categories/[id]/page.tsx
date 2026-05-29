@@ -6,11 +6,12 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { ArrowLeft, SlidersHorizontal, Grid3X3, List } from 'lucide-react'
 import { ProductCard } from '@/components/product/ProductCard'
-import { products, categories } from '@/data/products'
+import { useCatalog } from '@/hooks/useCatalog'
 
 export default function CategoryPage() {
   const params = useParams()
   const categoryId = params.id as string
+  const { products, categories, loading } = useCatalog()
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [sortBy, setSortBy] = useState('popular')
   const [priceRange, setPriceRange] = useState([0, 100])
@@ -24,6 +25,14 @@ export default function CategoryPage() {
     if (sortBy === 'rating') return b.rating - a.rating
     return b.reviews - a.reviews
   })
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <p className="text-gray-500">Loading category…</p>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
